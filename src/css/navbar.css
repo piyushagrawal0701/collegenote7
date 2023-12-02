@@ -1,0 +1,135 @@
+/* Add a black background color to the top navigation */
+/* .topnav {
+background-color: #333;
+overflow: hidden;
+
+*/
+
+.topnav{
+  /* fallback for old browsers */
+  background: #6a11cb;
+ overflow: hidden;
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-linear-gradient(to right, rgba(106, 17, 203, 0.9), rgba(37, 117, 252, 0.9));
+
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: linear-gradient(to right, rgba(106, 17, 203, 0.9), rgba(37, 117, 252, 0.9));
+}
+
+
+/* Style the links inside the navigation bar */
+.topnav a {
+float: left;
+display: block;
+background: transparent;
+color: #FFF;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+font-size: 17px;
+}
+
+/* Add an active class to highlight the current page */
+.active {
+background-color: #04AA6D;
+color: white;
+}
+
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
+display: none;
+}
+
+/* Dropdown container - needed to position the dropdown content */
+.dropdown {
+float: left;
+overflow: hidden;
+}
+
+/* Style the dropdown button to fit inside the topnav */
+.dropdown .dropbtn {
+font-size: 17px;
+border: none;
+outline: none;
+color: white;
+padding: 14px 16px;
+background-color: inherit;
+font-family: inherit;
+margin: 0;
+}
+
+/* Style the dropdown content (hidden by default) */
+.dropdown-content {
+display: none;
+position: absolute;
+background: #262626;
+min-width: 160px;
+box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+z-index: 1;
+}
+
+/* Style the links inside the dropdown */
+.dropdown-content a {
+float: none;
+color: white;
+padding: 12px 16px;
+text-decoration: none;
+display: block;
+text-align: left;
+}
+
+/* Add a dark background on topnav links and the dropdown button on hover */
+.topnav a:hover, .dropdown:hover .dropbtn {
+  background: #2581DC;
+  color: #ffffff;
+  border-radius: 20px;
+}
+
+/* Add a grey background to dropdown links on hover */
+.dropdown-content a:hover {
+  background: #2581DC;
+  color: #ffffff;
+}
+
+/* Show the dropdown menu when the user moves the mouse over the dropdown button */
+.dropdown:hover .dropdown-content {
+display: block;
+}
+
+
+
+/* NEW CSS FOR NAVBAR HEADING  */
+
+
+.head{
+  font-family: 'Alkatra', cursive;
+  font-family: 'Delicious Handrawn', cursive;
+  font-size: 2em !important;
+  position: relative;
+}
+
+#icon{
+  color: white ;
+  font-size: 35px;
+  margin-right: 10px;
+  margin-top: 5px;
+}
+
+.textsize{
+  position: relative;
+  padding-left: 15px;
+  float: left;
+  line-height: 25px;
+  justify-content: space-between;
+  text-transform: uppercase;
+  margin-right: 20vw;
+  margin-left: 6vw;
+  margin-bottom: 1%;
+}
+
+
+
+
+.Navbar-link{
+  margin-top: 1%;
+}

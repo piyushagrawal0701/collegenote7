@@ -1,0 +1,65 @@
+
+
+.cardcolor {
+    width: 100% !important;
+    align-items: center;
+    margin-right: 10px;
+    border-width: 10px;
+  border-style: solid;
+  border-image: linear-gradient(to right, #1877F2, #E0C3FC) 1;
+    margin-bottom: 15px;
+    /* border: 10px solid transparent !important;
+
+    background: linear-gradient(62deg, #1877F2 0%, #E0C3FC 100%); */
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  
+  }
+  
+   .cardcolor .text-gray-900{
+    color: darkblue;
+    font-size: 25px;
+    font-weight: 900;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   }
+  
+  
+  
+  .cardcolor:hover{
+    font-size: larger;
+    /* color: whitesmoke !important;
+    background-color: black !important; */
+    
+  }
+  /* ion hover color code start */
+  .cardcolor:hover #mail{
+  color: purple !important;
+  }
+  
+  .cardcolor:hover #linkedin{
+  color: lightskyblue;
+  }
+  
+  .cardcolor:hover #youtube{
+  color: rgb(220, 20, 20);
+  }
+  
+  .cardcolor:hover #telegram{
+  color: lightblue;
+  }
+  /* ion hover color code end */
+  
+  .cardcolor:hover .text-gray-900{
+  color: yellow;
+  }
+  
+  .cardcolor ion-icon{
+    color: black ;
+  }
+  
+  .cardcolor p{
+    color: black;
+  }
+  .cardcolor:hover p{
+  color: white;
+  }

@@ -1,0 +1,59 @@
+
+footer{
+
+  /* background-image: linear-gradient(rgba(0,0,0,0.6) , rgba(0,0,0,0.9)) ,url(..//Images/footerbg3.jpeg) ; */
+  background-size: cover;
+  background:  #E6F7FF;
+  border-radius: 50px;
+ 
+}
+
+.mb-10{
+  color: black !important;
+}
+.tracking-widest{
+  /* background: linear-gradient(0deg, rgb(240, 249, 110) , rgb(64, 182, 255)); */
+  -webkit-text-fill-color: transparent;
+  background: #1877F2;
+  -webkit-background-clip: text;
+  background-clip: none;
+  font-weight: bolder;
+  font-family: 'Bungee Spice', cursive;
+}
+
+.icon{
+  color: whitesmoke;
+}
+
+.copyrightdiv{
+
+  color: rgb(38, 33, 33);
+}
+
+/* HOVER EFFECT ON FOOTER LINKS  */
+
+.list-none li a:hover{
+color: #6366F1;
+  text-decoration: underline;
+}
+
+
+
+/* contact header color code finish */
+
+.copyrightdiv span ion-icon{
+  width: 20px;
+  height: 20px;
+}
+
+.container span{
+background: #1877F2;
+-webkit-text-fill-color: transparent;
+-webkit-background-clip: text;
+background-clip: none;
+}
+
+.container span#footer_logo{
+  font-size: 90px !important; 
+  
+}

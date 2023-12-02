@@ -1,0 +1,53 @@
+table, th, td {
+    border:1px solid black;
+    width: max-content;
+    object-fit: cover;
+    font-size: large;
+  }
+
+table{
+    width: 100%;
+    margin-top: 10%;
+}
+.jeenotestable{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+     padding: 10px;
+}
+
+thead{
+    width: 300px;
+    background: #1877F2;
+    color: white;
+    font-weight: 200 !important;
+    letter-spacing: 1px;
+    
+    
+    
+}
+
+td{
+
+    padding: 5%;
+}
+
+tr{
+    text-align: center;
+    
+}
+
+ .boxHover:hover{
+    background-color: rgb(106, 134, 246);
+    color: white;
+}
+
+/* --------- MIND MAPS CSS -------------  */
+
+/* CLASS 11 -------  */
+
+.mmpdfdiv{
+    padding: 20px;
+  
+}

@@ -1,0 +1,16 @@
+.signinform{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    margin-bottom: 200px;
+    padding: 20px;
+    margin: auto;
+}
+
+.signinform p{
+    margin-top: 2em;
+    font-size: larger;
+}

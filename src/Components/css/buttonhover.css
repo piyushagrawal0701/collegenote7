@@ -1,0 +1,255 @@
+
+ /************************************************
+ *********** MIDDLE SPLIT HOVER CSS **************
+ *************************************************/
+
+
+ .btnmiddle {
+    position: relative;
+    font-family: "Roboto", serif;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bolder;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    padding: 20px 60px;
+    margin: 0 20px;
+    color: white;
+    border: 2px solid #ff7675;
+    overflow: hidden;
+    transition: all 0.6s ease 0s;
+}
+
+.btnmiddle::before{
+    content:"";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: -1;
+    transform: translate(-50%, -50%);
+    /* background: #ff7675; */
+    background-color: #1877F2;
+    background-image: linear-gradient(62deg, #1877F2 0%, #E0C3FC 100%); 
+    transition: all 0.6s ease 0s;
+}
+
+/* ___________________________________ */
+/* _____ MIDDLE UP HOVER CSS START______ */
+/* ___________________________________ */
+
+.middleup::before {
+    width: 100%;
+    height: 0;
+}
+
+.middleup:hover::before {
+    height: 100%;
+}
+
+
+/* ___________________________________ */
+/* _____ MIDDLE SPLIT HOVER CSS START______ */
+/* ___________________________________ */
+.middlesplit::before {
+    height: 100%;
+    width: 0;
+}
+
+.middlesplit:hover::before {
+    width: 100%;
+}
+/* Middle slide hover end */
+
+
+/* ___________________________________ */
+/* _____ SIDE WISE HOVER CSS START______ */
+/* ___________________________________ */
+.btn-3::before {
+    width: 100%;
+    height: 0;
+    transform: translate(-50%, -50%) rotate(45deg);
+}
+
+.btn-3:hover::before {
+    height: 380%;
+}
+
+.btn-4::before {
+    width: 100%;
+    height: 0;
+    transform: translate(-50%, -50%) rotate(-45deg);
+}
+
+.btn-4:hover::before {
+    height: 380%;
+}
+
+
+
+
+ /************************************************
+ ************* SLIDE HOVER CSS *******************
+ *************************************************/
+
+ .btnslide {
+    position: relative;
+    font-family: "Roboto", serif;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bolder;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    padding: 10px 30px;
+    margin: 0 20px;
+    color: white;
+    border: 2px solid #000 !important;
+    overflow: hidden;
+    transition: all 0.6s ease 0s;
+}
+
+ .btnslide:hover{
+    color: white;
+
+ }
+
+ .btnslide::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    /* background: linear-gradient(45deg, #f06 , #3cf); */
+    background-color: #1877F2;
+    background-image: linear-gradient(62deg, #1877F2 0%, #E0C3FC 100%); 
+    transition: 0.4s all ease-in-out 0s;
+ }
+
+/* ___________________________________ */
+/* _____ UPSLIDE HOVER CSS START______ */
+/* ___________________________________ */
+ .upslide::before{
+    height: 0;
+ }
+
+ .upslide:hover::before{
+    top: unset;
+    bottom: 0;
+    height: 100%;
+ }
+
+ /* ___________________________________ */
+/* _____ DOWNSLIDE HOVER CSS START______ */
+/* ___________________________________ */
+
+.downslide::before{
+    top: unset;
+    height: 0;
+    bottom: 0;
+ }
+
+ .downslide:hover::before{
+    bottom: unset;
+    top: 0;
+    height: 100%;
+ }
+
+  /* ___________________________________ */
+/* _____ RIGHT SLIDE HOVER CSS START______ */
+/* ___________________________________ */
+
+.rightslide::before{
+   left: unset;
+   right: 0;
+    width: 0;
+ }
+
+ .rightslide:hover::before{
+   right: unset;
+   left: 0;
+   width: 100%;
+ }
+
+
+ /* ___________________________________ */
+/* _____ LEFT SLIDE HOVER CSS START______ */
+/* ___________________________________ */
+
+.leftslide::before{
+    right: unset;
+    left: 0;
+     width: 0;
+  }
+ 
+  .leftslide:hover::before{
+    left: unset;
+    right: 0;
+    width: 100%;
+  }
+
+  
+/* ------------------------------------------------------------------------------------------------ */
+/* GO TO TOP BUTTON  */
+/* ------------------------------------------------------------------------------------------------ */
+#myBtn {
+   
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background: linear-gradient(45deg, rgb(154, 50, 206) , rgb(51, 167, 255));
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+    font-size: 18px; /* Increase font size */
+    height: 40 px !important;
+  }
+  
+  #myBtn:hover {
+    background: linear-gradient(45deg, rgb(115, 38, 153) , rgb(28, 96, 148));
+    /* background-color: black; */
+  
+    /* opacity: 0.5; */
+    
+    /* background: linear-gradient(45deg, rgb(154, 50, 206) , rgb(51, 167, 255)); */
+    /* Add a dark-grey background on hover */
+  }
+
+/* ------------------------------------------------------------------------------------------------ */
+/* ------------------------------- SEARCH BUTTON ---------------------------------------------------*/
+/* ------------------------------------------------------------------------------------------------ */
+.search-btn{
+    display: block; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    left: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background: linear-gradient(45deg, rgb(154, 50, 206) , rgb(51, 167, 255));
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 50%; /* Rounded corners */
+    font-size: 18px; /* Increase font size */
+    width: 3em;
+    height: 3em;
+}
+.search-btn:hover {
+    background: linear-gradient(45deg, rgb(115, 38, 153) , rgb(28, 96, 148));
+    /* background-color: black; */
+  
+    /* opacity: 0.5; */
+    
+    /* background: linear-gradient(45deg, rgb(154, 50, 206) , rgb(51, 167, 255)); */
+    /* Add a dark-grey background on hover */
+  }
+
+/* ___________________________________ */
+/* ___________THANK YOU ! ___________ */
+/* ___________________________________ */
